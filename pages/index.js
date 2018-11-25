@@ -25,7 +25,7 @@ export const IndexPage = () => {
           })
         }
       </div>
-      <a href="/about">About</a>
+      <a title="about" href="/about">About</a>
     </div>
   `;
 };
