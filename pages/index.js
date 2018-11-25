@@ -16,6 +16,7 @@ export const IndexPage = () => {
   return html`
     <div>
       <h1 class="${pink}">Hello world!</h1>
+      <a title="about" href="/about">About Page</a>
       <div>
         ${
           items.map(item => {
@@ -25,7 +26,11 @@ export const IndexPage = () => {
           })
         }
       </div>
-      <a title="about" href="/about">About</a>
+
+      <p>
+        <strong>Source:</strong>
+        <a href="https://github.com/timarney/htm-ssr-demo">htm-ssr-demo</a>
+      </p>
     </div>
   `;
 };
