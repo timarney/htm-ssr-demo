@@ -1,0 +1,22 @@
+{
+  "name": "htm-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "emotion": "^9.2.12",
+    "emotion-server": "^9.2.12",
+    "esm": "^3.0.84",
+    "express": "^4.16.4",
+    "htm": "^1.0.1",
+    "jsdom": "^13.0.0",
+    "preact": "^8.3.1",
+    "preact-render-to-string": "^4.1.0",
+    "vhtml": "^2.1.0"
+  }
+}
