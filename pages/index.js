@@ -32,6 +32,9 @@ export const IndexPage = () => {
 
 export const AboutPage = () => {
   return html`
-    <h1 class="${pink}">About</h1>
+    <div>
+      <h1 class="${pink}">About</h1>
+      <p>Nice</p>
+    </div>
   `;
 };
