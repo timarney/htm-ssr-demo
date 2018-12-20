@@ -1,8 +1,9 @@
 # HTM Demo
+- Server Side Rendered HTML + CSS (Emotion)
 - [HTM](https://github.com/developit/htm) Rendering using JSX-like syntax in plain JavaScript - no transpiler necessary.
 - Zero Babel config
 - [ESM](https://github.com/standard-things/esm) for module loading
-- Server Side Rendered CSS using Emotion
+
 
 ```javascript
 // map over a list of items js + template literals :)
