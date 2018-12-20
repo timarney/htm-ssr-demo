@@ -1,5 +1,9 @@
-# htm-ssr-demo
+# HTM Demo
+- [HTM](https://github.com/developit/htm) Rendering using JSX-like syntax in plain JavaScript - no transpiler necessary.
+- Zero Babel config
+- [ESM](https://github.com/standard-things/esm) for module loading
+- Server Side Rendered CSS using Emotion
 
-Demo SSR
+<hr>
 
-https://zeit.co/tarney/htm-demo/hdmdzmdplv
+[Demo Link](https://htm-demo-hdmdzmdplv.now.sh)
