@@ -1,6 +1,6 @@
 {
   "name": "htm-demo",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,9 +14,9 @@
     "emotion-server": "^9.2.12",
     "esm": "^3.0.84",
     "express": "^4.16.4",
-    "htm": "^1.0.1",
+    "htm": "^2.0.0",
     "jsdom": "^13.0.0",
-    "preact": "^8.3.1",
+    "preact": "^8.4.2",
     "preact-render-to-string": "^4.1.0",
     "vhtml": "^2.1.0"
   }

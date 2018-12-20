@@ -1,7 +1,3 @@
-import htm from "../htm";
-import { h } from "preact";
-const html = htm.bind(h);
-
 export const HtmlPage = ({ title, content }) => {
   return `
     <!DOCTYPE html>
@@ -11,6 +7,11 @@ export const HtmlPage = ({ title, content }) => {
         <title>${title}</title>
         <meta name="description" content="SSR Demo" />
         <meta name="author" content="Tim Arney" />
+        <style>
+        body {
+          font-family: Helvetica, Arial, Sans-Serif;
+        }
+        </style>
       </head>
       <body>
         ${content}
