@@ -4,6 +4,20 @@
 - [ESM](https://github.com/standard-things/esm) for module loading
 - Server Side Rendered CSS using Emotion
 
+```javascript
+// map over a list of items js + template literals :)
+<div class="${main}">
+  ${
+    items.map(item => {
+      const href = `https://twitter.com/${item}`;
+      return html`
+        <div><a class="${link}" href=${href}>${item}</a></div>
+      `;
+    })
+  }
+</div>
+```
+
 <hr>
 
 [Demo Link](https://htm-demo-hdmdzmdplv.now.sh)
