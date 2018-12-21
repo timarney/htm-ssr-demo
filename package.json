@@ -10,14 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "emotion": "^9.2.12",
-    "emotion-server": "^9.2.12",
+    "emotion": "^10.0.5",
+    "emotion-server": "^10.0.5",
     "esm": "^3.0.84",
     "express": "^4.16.4",
     "htm": "^2.0.0",
-    "jsdom": "^13.0.0",
     "preact": "^8.4.2",
-    "preact-render-to-string": "^4.1.0",
-    "vhtml": "^2.1.0"
+    "preact-render-to-string": "^4.1.0"
   }
 }

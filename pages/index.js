@@ -9,12 +9,15 @@ const pink = css`
   color: #ff1493;
 `;
 
+const items = ["@rauchg", "@timarney", "@TejasKumar_", "@aaronshaf"];
+
 export const IndexPage = () => {
   return html`
     <div>
-      ${Header()}
+      <${Header} />
       <h1 class="${pink}">People who have been waiting for HTM 2 !</h1>
-      ${TwitterLinks()} ${Footer()}
+      <${TwitterLinks} items="${items}" />
+      <${Footer} />
     </div>
   `;
 };
@@ -22,10 +25,10 @@ export const IndexPage = () => {
 export const AboutPage = () => {
   return html`
     <div>
-      ${Header()}
+      <${Header} />
       <h1 class="${pink}">About</h1>
       <p>Nice</p>
-      ${Footer()}
+      <${Footer} />
     </div>
   `;
 };

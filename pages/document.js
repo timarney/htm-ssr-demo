@@ -11,6 +11,14 @@ export const HtmlPage = ({ title, content }) => {
         body {
           font-family: Helvetica, Arial, Sans-Serif;
         }
+        a{
+          color:#000;
+          display:inline-block;
+          margin-right:20px;
+        }
+        a:hover{
+          color:#888;
+        }
         </style>
       </head>
       <body>
