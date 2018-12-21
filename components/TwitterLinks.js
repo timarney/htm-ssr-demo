@@ -2,7 +2,6 @@ import htm from "htm";
 import { h } from "preact";
 import { css } from "emotion";
 const html = htm.bind(h);
-
 const main = css`
   color: #ff1493;
 
