@@ -4,8 +4,7 @@ const html = htm.bind(h);
 export const Header = () => {
   return html`
     <div>
-      <a title="home" href="/"> Home </a>
-      <a title="about" href="/about"> About </a>
+      <a alt="home" href="/"> Home </a> <a alt="about" href="/about"> About </a>
     </div>
   `;
 };
