@@ -6,7 +6,7 @@
 
 <hr>
 
-## Demo: [Demo Link](https://htm-demo-uamrbtnchw.now.sh)
+## Demo: [Demo Link](https://htm-demo-ohouefimid.now.sh)
 
 ## Use Case 1 
 
