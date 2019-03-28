@@ -5,16 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "now-start": "node index.js"
+    "now-start": "node index.js",
+    "dev": "node index.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "emotion": "^10.0.5",
-    "emotion-server": "^10.0.5",
-    "esm": "^3.0.84",
+    "emotion": "^10.0.9",
+    "emotion-server": "^10.0.9",
+    "esm": "^3.2.21",
     "express": "^4.16.4",
-    "htm": "^2.0.0",
+    "htm": "^2.1.1",
     "preact": "^8.4.2",
     "preact-render-to-string": "^4.1.0"
   }
