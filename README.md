@@ -6,7 +6,7 @@
 
 <hr>
 
-[Demo Link](https://htm-demo-uamrbtnchw.now.sh)
+## DEMO [Demo Link](https://htm-demo-uamrbtnchw.now.sh)
 
 ## Use Case 1 
 
@@ -25,10 +25,5 @@ In my case in the past I've tried rendering a homepage for a service as **static
 
 Failing back to HTML without needing to write plain HTML feels ideal.  Simple things like looping over data is a must have for me.  I don't want to learn another templating language.  I want to use JS to map over lists etc...  I want to be able to write **Components** to break markup into small chunks that can be used when rendered with Node or a client side app i.e. this could be as simple as a button component server rendered and alsoe used within a React app. 
 
-
-I plan on updating this repo to demo use case soon.
-
-## Use Case 2
-Can't talk about this yet :)
 
 
